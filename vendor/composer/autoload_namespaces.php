@@ -6,7 +6,12 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Symfony\\Component\\Translation\\' => array($vendorDir . '/symfony/translation'),
+    'Symfony\\Component\\Finder\\' => array($vendorDir . '/symfony/finder'),
+    'Symfony\\Component\\Console\\' => array($vendorDir . '/symfony/console'),
     'Slim' => array($vendorDir . '/slim/slim'),
     'MyClass' => array($baseDir . '/src'),
-    'AppName' => array($baseDir . '/src'),
+    'Employee' => array($baseDir . '/src'),
+    'Doctrine\\Common\\Inflector\\' => array($vendorDir . '/doctrine/inflector/lib'),
+    'Carbon' => array($vendorDir . '/nesbot/carbon/src'),
 );

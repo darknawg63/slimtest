@@ -1,9 +1,9 @@
 {
     "require": {
-        "slim/slim": "2.*"
+        "slim/slim": "2.*", "illuminate/database": "*", "illuminate/console": "*", "illuminate/events": "*", "illuminate/filesystem": "*"
     },
 
     "autoload": {
-        "psr-0": {"AppName": "src/", "MyClass": "src/"}
+        "psr-0": {"Employee": "src/", "MyClass": "src/"}
     }
 }
