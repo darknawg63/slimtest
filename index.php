@@ -10,9 +10,8 @@ $app->config(array(
 
 
 //routes
-$app->get('/demo/:id', function ($id) use ($app) { 
-    $message = Employees::message();
-    $employee = Employees::getEmployee($id);
+$app->get('/employee/show/:id', function ($id) use ($app) { 
+    $employee = Employees::show($id);
     $app->render('/employee/show.php', array('employee' => $employee)); 
 });
 
