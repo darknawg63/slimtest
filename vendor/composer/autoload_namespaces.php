@@ -10,8 +10,8 @@ return array(
     'Symfony\\Component\\Finder\\' => array($vendorDir . '/symfony/finder'),
     'Symfony\\Component\\Console\\' => array($vendorDir . '/symfony/console'),
     'Slim' => array($vendorDir . '/slim/slim'),
-    'MyClass' => array($baseDir . '/src'),
-    'Employee' => array($baseDir . '/src'),
+    'Employees' => array($baseDir . '/app/controllers'),
+    'Employee' => array($baseDir . '/app/models'),
     'Doctrine\\Common\\Inflector\\' => array($vendorDir . '/doctrine/inflector/lib'),
     'Carbon' => array($vendorDir . '/nesbot/carbon/src'),
 );

@@ -4,6 +4,6 @@
     },
 
     "autoload": {
-        "psr-0": {"Employee": "src/", "MyClass": "src/"}
+        "psr-0": {"Employee": "app/models/", "Employees": "app/controllers/"}
     }
 }

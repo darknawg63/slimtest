@@ -1,5 +1,5 @@
 <?php
-class MyClass
+class Employees
 {
     public static function message()
     {   
@@ -7,9 +7,9 @@ class MyClass
         return $container;
     }
 
-    public static function getEmployee()
+    public static function getEmployee($emp_no)
     {
-        $employee = Employee::find(10001);
+        $employee = Employee::find($emp_no);
         return $employee;
     }
 }
